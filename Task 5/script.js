@@ -23,12 +23,12 @@ const users = [
 
 
 function filterDogOwers(arr) {
-  return arr.filter(user => user.hasDog === true );
+  return arr.filter(user => user.hasDog === true);
 }
-console.log( ' Vartotojai kurie turi augintinį  ' , filterDogOwers(users));
+console.log('Vartotojai kurie turi augintinį  ' , filterDogOwers(users));
 
 
 function filterAdults(arr) {
   return arr.filter(user => user.age >= 18);
 }
-console.log( ' Vartotojai kurie yra pilnamečiai ' , filterAdults(users));
+console.log('Vartotojai kurie yra pilnamečiai  ' , filterAdults(users));

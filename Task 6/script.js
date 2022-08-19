@@ -23,22 +23,19 @@ const users = [
 
 function getUserAverageAge(arr) {
   const usersAverageAge = arr.reduce((sum, users) => sum + users.age, 0) / arr.length;
-  console.log('amžiaus vidurkis', usersAverageAge);
   return +usersAverageAge;   // " + " kad poaverst i skaiciu nors ir taip skaicius :) 
-// suapvalinta
-  // return +usersAverageAge.toFixed(3);
+  // suapvalinta
+  // return +usersAverageAge.toFixed(0);
 }
+console.log('amžiaus vidurkis', getUserAverageAge(users));
 
-getUserAverageAge(users);
 
 
 function getUsersNames(arr) {
   const usersNamesArray = arr.map((users) => users.name);
-  console.log('vartotoju vardai', usersNamesArray);
   return usersNamesArray;
 }
-
-getUsersNames(users);
+console.log('vartotoju vardai', getUsersNames(users));
 
 
 
