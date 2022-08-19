@@ -10,4 +10,3 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 ------------------------------------------------------------------- */
 
 
-bandom biski gitaaaaaaa
