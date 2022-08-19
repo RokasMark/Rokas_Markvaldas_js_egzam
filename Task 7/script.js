@@ -10,3 +10,11 @@ const audi = {
   year: 2005,
   color: 'white',
 };
+
+
+function showObjectKeys(obj) {
+  return Object.keys(obj);
+}
+
+console.log('"key" masyve  ==>', showObjectKeys(audi));
+
