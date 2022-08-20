@@ -3,7 +3,7 @@ Turimas "users" masyvas.
 
 Parašykite funckijas, kurios atlikas nurodytas užduotis:
 1. funkcija "getUserAverageAge" - kaip argumentą priims masyvą ir duoto masyvo 
-atveju grąžins visų "users" amžiaus visurkį kaip skaičių.
+atveju grąžins visų "users" amžiaus vidurkį kaip skaičių.
 2. funkcija "getUsersNames" -  kaip argumentą priims masyvą ir duoto masyvo 
 atveju grąžins visų "users" vardus naujame masyve pvz., ['John Smith', 'Ann Smith'..].
 -------------------------------------------------------------------------- */
@@ -19,3 +19,24 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+
+function getUserAverageAge(arr) {
+  const usersAverageAge = arr.reduce((sum, users) => sum + users.age, 0) / arr.length;
+  return +usersAverageAge;   // " + " kad poaverst i skaiciu nors ir taip skaicius :) 
+  // suapvalinta
+  // return +usersAverageAge.toFixed(0);
+}
+console.log('amžiaus vidurkis', getUserAverageAge(users));
+
+
+
+function getUsersNames(arr) {
+  const usersNamesArray = arr.map((users) => users.name);
+  return usersNamesArray;
+}
+console.log('vartotoju vardai', getUsersNames(users));
+
+
+
+
