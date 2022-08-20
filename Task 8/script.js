@@ -27,6 +27,6 @@ function Calculator() {
 let checkCalculator = new Calculator()
 
 console.log('checkCalculator.sum(4, 6) ===', checkCalculator.sum(4, 6));
-console.log('checkCalculator.subtraction(111, 6) ===', checkCalculator.subtraction(106, 6));
-console.log('checkCalculator.multiplication(4, 213) ===', checkCalculator.multiplication(4, 250));
-console.log('checkCalculator.division(5, 6) ===', checkCalculator.division(22, 2));
+console.log('checkCalculator.subtraction(106, 6) ===', checkCalculator.subtraction(106, 6));
+console.log('checkCalculator.multiplication(4, 250) ===', checkCalculator.multiplication(4, 250));
+console.log('checkCalculator.division(22, 2)) ===', checkCalculator.division(22, 2));
