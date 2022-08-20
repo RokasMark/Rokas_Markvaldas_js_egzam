@@ -25,6 +25,7 @@ async function showBrands() {
     cars.forEach(element => {
         const CardDiv = document.createElement('div');
         CardDiv.className = 'card-block'
+        outputEl.className = 'reponsive-output'
         CardDiv.innerHTML = `<ul> ${element.brand} </ul>  <li> ${element.models} </li> ` ;
         outputEl.append(CardDiv)
     }); 

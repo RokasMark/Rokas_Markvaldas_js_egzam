@@ -59,7 +59,6 @@
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
- 
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
@@ -68,8 +67,6 @@
 @media screen and (max-width: 1768px) {
   #output {
     display: flex;
-    flex-basis: auto;
-    flex-wrap: wrap;
     flex-direction: column;
     word-break: break-all;
   }
