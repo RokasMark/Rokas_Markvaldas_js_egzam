@@ -24,7 +24,7 @@ formEl.addEventListener('submit', (event) => {
         const lb = inputEl.value * 2.2046;
         const g = inputEl.value / 0.001;
         const oz = inputEl.value * 35.274;
-        outputEl.innerHTML = `weight in kilograms ${inputEl.value} converted to pounds ${lb} to grams ${g} to ozt ${oz}`
+        outputEl.innerHTML = `<p class='output-block'> weight in kilograms  ${inputEl.value} <br> converted to pounds ${(lb).toFixed(2)} <br> converted  to grams ${g} <br> converted  to ozt ${(oz).toFixed(2)}</p>`
         inputEl.value = '';
     });
     

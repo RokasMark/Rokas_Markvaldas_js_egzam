@@ -58,4 +58,21 @@
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  background-color: rgb(139, 127, 127);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+.user-card {
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(74, 24, 24);
+  text-transform: uppercase;
+  
+}
+.user-card img { 
+  max-width: 200px;
 }

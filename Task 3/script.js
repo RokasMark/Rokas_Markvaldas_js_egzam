@@ -34,7 +34,8 @@ async function showUserData() {
     messageEl.style.display = 'none';
     oneCard.forEach(element => {
         const userCard = document.createElement('div');
-        userCard.innerHTML = `<img src='${element.avatar_url}'> <p>${element.login}</p>`;
+        userCard.className = 'user-card'
+        userCard.innerHTML = `<img  src='${element.avatar_url}'> <p>${element.login}</p>`;
         outputEl.append(userCard);
         
     });
